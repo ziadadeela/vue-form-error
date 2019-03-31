@@ -1,46 +1,15 @@
 {
   "name": "vue-form-error",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A Vue.js component that is used to display validation errors on form inputs.",
+  "main": "dist/vue-form-error.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
+  "author": "Ziad Adeela <zeiad.suliman@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.6"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-plugin-eslint": "^3.5.0",
-    "@vue/cli-service": "^3.5.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "repository": {},
+  "devDependencies": {}
 }

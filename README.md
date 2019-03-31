@@ -1,29 +1,12 @@
 # vue-form-error
-
-## Project setup
+A simple Vuejs component that can be used to display form validation errors  on inputs
+## Installation
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install vue-form-error
 ```
 
-### Compiles and minifies for production
+##License
 ```
-npm run build
-```
+Released under the MIT License.
 
-### Run your tests
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
