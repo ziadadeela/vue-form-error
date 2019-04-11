@@ -1,5 +1,5 @@
 {
-  "private": false,
+  "private": true,
   "name": "vue-form-error",
   "version": "1.0.0",
   "description": "A Vue.js component that is used to display validation errors on form inputs.",
