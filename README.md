@@ -1,8 +1,9 @@
 # vue-form-error
-A simple Vuejs component that can be used to display form validation errors  on inputs
+A simple Vuejs component that can be used to display form validation errors  on inputs.
+
 ## Installation
 ```
-npm install vue-form-error
+npm install vue-form-error --save
 ```
 
 ##License

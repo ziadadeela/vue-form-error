@@ -2,14 +2,57 @@
   "name": "vue-form-error",
   "version": "1.0.0",
   "description": "A Vue.js component that is used to display validation errors on form inputs.",
-  "main": "dist/vue-form-error.js",
+  "author": "Ziad Adeela <zeiad.suliman@gmail.com> (https://github.com/ziadadeela)",
   "scripts": {
-    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test",
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --target lib --name FormError ./src/FormError.vue"
   },
-  "author": "Ziad Adeela <zeiad.suliman@gmail.com>",
-  "license": "MIT",
+  "main": "./dist/vue-form-error.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.5.17",
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
   },
-  "repository": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/ziadadeela/vue-form-error/issues"
+  },
+  "homepage": "https://github.com/ziadadeela/vue-form-error#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziadadeela/vue-form-error"
+  }
 }
