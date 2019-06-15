@@ -6,7 +6,7 @@ A simple Vuejs component that can be used to display form validation errors  on 
 npm install vue-form-error --save
 ```
 
-##Usage
+## Usage
 
 ```html
 <template>
@@ -37,7 +37,7 @@ npm install vue-form-error --save
     }
 </script>
 ```
-##License
+## License
 ```
 Released under the MIT License.
 ```
