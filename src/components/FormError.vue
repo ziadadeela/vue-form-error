@@ -15,8 +15,8 @@
   export default {
         props: {
           errors:{
-            type: Object,
-            default: ()=>{}
+            type: Array,
+            default: []
           }
         },
     }
