@@ -60,5 +60,10 @@
     "public/*",
     "*.json",
     "*.js"
+  ],
+  "keywords": [
+    "vue",
+    "errors",
+    "form validation errors"
   ]
 }
