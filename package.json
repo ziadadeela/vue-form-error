@@ -1,34 +1,31 @@
 {
-  "private": true,
   "name": "vue-form-error",
-  "version": "1.0.0",
   "description": "A Vue.js component that is used to display validation errors on form inputs.",
   "author": "Ziad Adeela <zeiad.suliman@gmail.com> (https://github.com/ziadadeela)",
+  "version": "1.0.0",
+  "main": "./dist/FormError.common.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziadadeela/vue-form-error"
+  },
+  "bugs": {
+    "url": "https://github.com/ziadadeela/vue-form-error/issues"
+  },
+  "homepage": "https://github.com/ziadadeela/vue-form-error#readme",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "test": "vue-cli-service test",
-    "lint": "vue-cli-service lint",
-    "build:lib": "vue-cli-service build --target lib --name FormError ./src/FormError.vue"
+    "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name FormError ./src/components/FormError.vue",
+    "lint": "vue-cli-service lint"
   },
-  "main": "./dist/vue-form-error.js",
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
   "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.5.17",
-    "@vue/cli-plugin-babel": "^3.6.0",
-    "@vue/cli-plugin-eslint": "^3.0.1",
-    "@vue/cli-service": "^3.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "bootstrap": "^4.3.1",
+    "vue": "^2.5.17"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "vue-template-compiler": "^2.5.17"
@@ -47,13 +44,21 @@
       "parser": "babel-eslint"
     }
   },
-  "bugs": {
-    "url": "https://github.com/ziadadeela/vue-form-error/issues"
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   },
-  "homepage": "https://github.com/ziadadeela/vue-form-error#readme",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ziadadeela/vue-form-error"
-  }
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
 }

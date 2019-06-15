@@ -1,7 +1,8 @@
-import FormError from './FormError.vue';
+import Vue from 'vue'
+import App from './App.vue'
 
-module.exports = {
-    install: function (Vue) {
-        Vue.component('vue-form-error', FormError);
-    }
-};
+Vue.config.productionTip = false
+
+new Vue({
+  render: h => h(App)
+}).$mount('#app')
