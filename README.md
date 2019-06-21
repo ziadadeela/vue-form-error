@@ -4,6 +4,7 @@
 
 A simple Vuejs component that can be used to display form validation errors  on inputs.
 
+
 ## Installation
 ```
 npm install vue-form-error --save
@@ -40,6 +41,13 @@ npm install vue-form-error --save
     }
 </script>
 ```
+
+## Run Examples Locally
+
+- Clone this repo
+- Install dependencies: **npm install**
+- Run dev server and it will open on http://localhost:8080 : **npm run serve** 
+
 ## License
 ```
 Released under the MIT License.
