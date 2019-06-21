@@ -2,7 +2,7 @@
   "name": "vue-form-error",
   "description": "A Vue.js component that is used to display validation errors on form inputs.",
   "author": "Ziad Adeela <zeiad.suliman@gmail.com> (https://github.com/ziadadeela)",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./dist/FormError.common.js",
   "repository": {
     "type": "git",
@@ -67,6 +67,5 @@
     "errors",
     "form validation errors",
     "validation errors"
-
   ]
 }
