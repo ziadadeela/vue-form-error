@@ -2,14 +2,18 @@
 # vue-form-error
 [![NPM Version](https://img.shields.io/npm/dt/vue-form-error.svg)](https://www.npmjs.com/package/vue-form-error)[![npm-version](https://img.shields.io/npm/v/vue-form-error.svg)](https://www.npmjs.com/package/vue-form-error)[![license](https://img.shields.io/npm/l/vue-form-error.svg)](https://yarnpkg.com/en/package/vue-form-error)
 
-A simple Vuejs component that can be used to display form validation errors  on inputs.
+A simple Vuejs component that can be used to display form validation errors on inputs.
 
 ## Demo
 https://codesandbox.io/s/vue-form-error-kwjv0
 
 ## Installation
 ```
-npm install vue-form-error --save
+npm install vue-form-error --save 
+
+OR
+
+yarn add vue-form-error
 ```
 
 ## Usage
