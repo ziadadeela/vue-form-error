@@ -14,7 +14,7 @@
   "homepage": "https://github.com/ziadadeela/vue-form-error#readme",
   "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "test": "vue-cli-service test",
     "build": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name FormError ./src/components/FormError.vue",
@@ -63,7 +63,10 @@
   ],
   "keywords": [
     "vue",
+    "vue errors",
     "errors",
-    "form validation errors"
+    "form validation errors",
+    "validation errors"
+
   ]
 }
