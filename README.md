@@ -4,6 +4,8 @@
 
 A simple Vuejs component that can be used to display form validation errors  on inputs.
 
+## Demo
+https://codesandbox.io/s/vue-form-error-kwjv0
 
 ## Installation
 ```
@@ -26,6 +28,8 @@ npm install vue-form-error --save
 <script>
     // Import component
     import FormError from 'vue-form-error';
+    // Import stylesheet
+    import "vue-form-error/dist/FormError.css";
     
     export default {
         data() {
