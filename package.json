@@ -25,9 +25,9 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.1",
-    "@vue/cli-plugin-eslint": "^3.0.1",
-    "@vue/cli-service": "^3.0.1",
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-eslint": "^3.9.2",
+    "@vue/cli-service": "^3.9.2",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
@@ -66,6 +66,8 @@
     "vue errors",
     "errors",
     "form validation errors",
-    "validation errors"
+    "validation errors",
+    "form",
+    "validation"
   ]
 }
