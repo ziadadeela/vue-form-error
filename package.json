@@ -2,7 +2,7 @@
   "name": "vue-form-error",
   "description": "A Vue.js component that is used to display validation errors on form inputs.",
   "author": "Ziad Adeela <zeiad.suliman@gmail.com> (https://github.com/ziadadeela)",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "./dist/FormError.common.js",
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
     "build:lib": "vue-cli-service build --target lib --name FormError ./src/components/FormError.vue",
     "lint": "vue-cli-service lint",
     "test": "echo \"No test specified\""
-
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
